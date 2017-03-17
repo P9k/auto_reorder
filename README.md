@@ -14,5 +14,5 @@
 
  (c) Paul Jerabek, 2017 (Massey University, Auckland, New Zealand)
 
-      with creative help (design of the AWK script) by Lukas Pasteka
+ with creative help (design of the AWK script) by Lukas Pasteka
 
