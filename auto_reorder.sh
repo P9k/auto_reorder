@@ -166,7 +166,7 @@ done
 
 # Continue with AWK script
 echo "else out=1;}"        >> reorder.awk
-echo "if (out==0) printf "%20.16E%5i%5i%5i%5i\n",$1,a[1],a[2],a[3],a[4]" >> reorder.awk
+echo "if (out==0) printf \"%20.16E%5i%5i%5i%5i\\n\",\$1,a[1],a[2],a[3],a[4]" >> reorder.awk
 echo "}"                   >> reorder.awk
 
 
