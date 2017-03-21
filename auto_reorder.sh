@@ -160,7 +160,7 @@ SHIFT=0
 i=2
 while [ $i -le $TOTAL_IRREP ]; do
     SHIFT=$(( SHIFT + DIFFORBARRAY[i-2] ))
-    echo "else if (\$i >= $(( CONSLORBARRAY[i-1] - 1 )) && \$i <= $(( CONSUORBARRAY[i-1] - DIFFORBARRAY[i-1] ))) a[i-1]=\$i-$SHIFT;" >> reorder.awk
+    echo "else if (\$i > $(( CONSLORBARRAY[i-1] - 1 )) && \$i <= $(( CONSUORBARRAY[i-1] - DIFFORBARRAY[i-1] ))) a[i-1]=\$i-$SHIFT;" >> reorder.awk
     ((i++))
 done
 
