@@ -16,6 +16,8 @@
 #
 # (c) Paul Jerabek, 2017 (Massey University, Auckland, New Zealand)
 #
+# {{!Works only with the three-column style for the fort.55 file like the
+# precompiled OMP version of Molpro 2015.1 uses it!}}
 #
 
 # Extract number of orbitals from the file
